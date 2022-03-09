@@ -1,0 +1,69 @@
+        body {
+            background-color: #f5f5f5;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body a {
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body a:hover {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        #base {
+            background-color: skyblue;
+        }
+        
+        table #linea:hover {
+            background-color: rgb(0, 229, 255, 0.3);
+        }
+        
+        .form_agregar {
+            display: none;
+            background-color: rgba(5, 2, 2, 0.809);
+            width: 100%;
+            height: 100%;
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+        
+        .form_editar {
+            background-color: rgba(5, 2, 2, 0.809);
+            width: 100%;
+            height: 100%;
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
+        
+        .nuevo {
+            background-color: rgba(0, 229, 255, 0.659);
+            width: 45%;
+            position: absolute;
+            padding: 10px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .nuevo .btn_close {
+            position: relative;
+            align-items: left;
+        }
+        
+        .nuevo .btn_close:hover {
+            color: rgb(255, 0, 0);
+        }
